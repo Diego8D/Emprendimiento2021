@@ -23,10 +23,10 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1
-  m_AmbientMode: 3
-  m_SubtractiveShadowColor: {r: 0, g: 0.28627443, b: 1, a: 1}
-  m_SkyboxMaterial: {fileID: 0}
+  m_AmbientIntensity: 2.32
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 1, g: 1, b: 1, a: 1}
+  m_SkyboxMaterial: {fileID: 2100000, guid: cf8ea8f97dce6a64aab1434c4915b427, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -20861,6 +20861,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: -2187919314930004913, guid: e7585d817e1b67b47a48763d7dbc2167, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ee185fd28b394243bdd0927ba76a7a2, type: 2}
     - target: {fileID: -2187919314930004913, guid: e7585d817e1b67b47a48763d7dbc2167, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -58252,6 +58256,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -2750977667460753139, guid: e7585d817e1b67b47a48763d7dbc2167, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2750977667460753139, guid: e7585d817e1b67b47a48763d7dbc2167, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -58272,8 +58280,16 @@ PrefabInstance:
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4726813073910132529, guid: e7585d817e1b67b47a48763d7dbc2167, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4726813073910132529, guid: e7585d817e1b67b47a48763d7dbc2167, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7988157766644865514, guid: e7585d817e1b67b47a48763d7dbc2167, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7988157766644865514, guid: e7585d817e1b67b47a48763d7dbc2167, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -97047,7 +97063,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &2138677392
 Light:
   m_ObjectHideFlags: 0
@@ -97059,8 +97075,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
-  m_Intensity: 0.12
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.3
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.802082
@@ -97117,13 +97133,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2138677391}
-  m_LocalRotation: {x: 0.7064338, y: 0.47771442, z: 0.030843567, w: 0.5213338}
-  m_LocalPosition: {x: 0.24, y: 3, z: 4.18}
+  m_LocalRotation: {x: -0.037683453, y: -0.16173229, z: 0.4290261, w: 0.887896}
+  m_LocalPosition: {x: -2, y: 21.4, z: -24.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 45, y: 130, z: 90}
+  m_LocalEulerAnglesHint: {x: 175.879, y: 161.315, z: 230.901}
 --- !u!1 &2141431355
 GameObject:
   m_ObjectHideFlags: 0
