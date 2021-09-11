@@ -1,0 +1,984 @@
+fileFormatVersion: 2
+guid: befebd2ab5977694183e2ccb88123807
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6682162449516234922
+    second: AtlasEllenLargo_0
+  - first:
+      213: -8323806316732518174
+    second: AtlasEllenLargo_1
+  - first:
+      213: -7905059700759241304
+    second: AtlasEllenLargo_2
+  - first:
+      213: -3945384388892150646
+    second: AtlasEllenLargo_3
+  - first:
+      213: -8116389420329799935
+    second: AtlasEllenLargo_4
+  - first:
+      213: 8833896574917146485
+    second: AtlasEllenLargo_5
+  - first:
+      213: -2305973190430939522
+    second: AtlasEllenLargo_6
+  - first:
+      213: -2004873083021397721
+    second: AtlasEllenLargo_7
+  - first:
+      213: -3292945421510525717
+    second: AtlasEllenLargo_8
+  - first:
+      213: 4120394896928397007
+    second: AtlasEllenLargo_9
+  - first:
+      213: 5851951735716032826
+    second: AtlasEllenLargo_10
+  - first:
+      213: -6271571309050234035
+    second: AtlasEllenLargo_11
+  - first:
+      213: 5468087264891617972
+    second: AtlasEllenLargo_12
+  - first:
+      213: 8995584172377931906
+    second: AtlasEllenLargo_13
+  - first:
+      213: -7582774772107413700
+    second: AtlasEllenLargo_14
+  - first:
+      213: -8128780348867675472
+    second: AtlasEllenLargo_15
+  - first:
+      213: -6853810266458956003
+    second: AtlasEllenLargo_16
+  - first:
+      213: -8135646873239368173
+    second: AtlasEllenLargo_17
+  - first:
+      213: -323367214299415949
+    second: AtlasEllenLargo_18
+  - first:
+      213: 8963799068615400518
+    second: AtlasEllenLargo_19
+  - first:
+      213: 8073659486991182243
+    second: AtlasEllenLargo_20
+  - first:
+      213: 982883688990346414
+    second: AtlasEllenLargo_21
+  - first:
+      213: -5151294171767474888
+    second: AtlasEllenLargo_22
+  - first:
+      213: -569191641690764602
+    second: AtlasEllenLargo_23
+  - first:
+      213: -5999912447463879380
+    second: AtlasEllenLargo_24
+  - first:
+      213: -5956371742310639162
+    second: AtlasEllenLargo_25
+  - first:
+      213: -8914172138230904307
+    second: AtlasEllenLargo_26
+  - first:
+      213: 8665616825987783077
+    second: AtlasEllenLargo_27
+  - first:
+      213: 5691815674695973637
+    second: AtlasEllenLargo_28
+  - first:
+      213: 7871069131948686949
+    second: AtlasEllenLargo_29
+  - first:
+      213: -745760589220455526
+    second: AtlasEllenLargo_30
+  - first:
+      213: -8272037475210592872
+    second: AtlasEllenLargo_31
+  - first:
+      213: 3372585971338085692
+    second: AtlasEllenLargo_32
+  - first:
+      213: 1255827038075741301
+    second: AtlasEllenLargo_33
+  - first:
+      213: -978478177991243227
+    second: AtlasEllenLargo_34
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AtlasEllenLargo_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1813
+        width: 111
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa88ede185fcbbc50800000000000000
+      internalID: 6682162449516234922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_1
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1815
+        width: 117
+        height: 224
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e07100a146eb7c80800000000000000
+      internalID: -8323806316732518174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1815
+        width: 109
+        height: 223
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad5dffb5169b4290800000000000000
+      internalID: -7905059700759241304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_3
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1815
+        width: 88
+        height: 220
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8436b54dcd2f39c0800000000000000
+      internalID: -3945384388892150646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_4
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 1814
+        width: 76
+        height: 218
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fe08e13dacc5f80800000000000000
+      internalID: -8116389420329799935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_5
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1814
+        width: 65
+        height: 218
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577f972812e489a70800000000000000
+      internalID: 8833896574917146485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_6
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1814
+        width: 52
+        height: 221
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e762ac2d9998fffd0800000000000000
+      internalID: -2305973190430939522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_7
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1816
+        width: 115
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72174c2ad824d24e0800000000000000
+      internalID: -2004873083021397721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1587
+        width: 125
+        height: 199
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: becbd1ef59b1d42d0800000000000000
+      internalID: -3292945421510525717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1357
+        width: 90
+        height: 234
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6dfb5f3559e2930800000000000000
+      internalID: 4120394896928397007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_10
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1588
+        width: 142
+        height: 196
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31b512491f463150800000000000000
+      internalID: 5851951735716032826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_11
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1588
+        width: 167
+        height: 186
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b77846f17e6f8a0800000000000000
+      internalID: -6271571309050234035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_12
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1588
+        width: 175
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2c3b0756c82eb40800000000000000
+      internalID: 5468087264891617972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_13
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 1587
+        width: 175
+        height: 190
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28086b5e42cb6dc70800000000000000
+      internalID: 8995584172377931906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_14
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 1588
+        width: 149
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c377eb0258294c690800000000000000
+      internalID: -7582774772107413700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_15
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 1588
+        width: 134
+        height: 193
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0baf0904755c03f80800000000000000
+      internalID: -8128780348867675472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_16
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1361
+        width: 93
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fd9cd20ef52e0a0800000000000000
+      internalID: -6853810266458956003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_17
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1359
+        width: 96
+        height: 211
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ecc86f540681f80800000000000000
+      internalID: -8135646873239368173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_18
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1360
+        width: 103
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37afcab5b3b238bf0800000000000000
+      internalID: -323367214299415949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_19
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1359
+        width: 91
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c5ccab2cfc56c70800000000000000
+      internalID: 8963799068615400518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_20
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 1362
+        width: 90
+        height: 162
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9629ff6866b0070800000000000000
+      internalID: 8073659486991182243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_21
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 1362
+        width: 88
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac8bc1f187e3ad00800000000000000
+      internalID: 982883688990346414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_22
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 1361
+        width: 88
+        height: 194
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83572465e3de288b0800000000000000
+      internalID: -5151294171767474888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_23
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1361
+        width: 90
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca86e3b733d918f0800000000000000
+      internalID: -569191641690764602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_24
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1133
+        width: 101
+        height: 194
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d887dfa670cbca0800000000000000
+      internalID: -5999912447463879380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_25
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1134
+        width: 98
+        height: 148
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c956656577b65da0800000000000000
+      internalID: -5956371742310639162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_26
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1134
+        width: 96
+        height: 154
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a001a6baf7a4480800000000000000
+      internalID: -8914172138230904307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_27
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1133
+        width: 69
+        height: 199
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a956a04794724870800000000000000
+      internalID: 8665616825987783077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_28
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 1135
+        width: 73
+        height: 220
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bf04913346dfe40800000000000000
+      internalID: 5691815674695973637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_29
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1134
+        width: 105
+        height: 171
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ef75c3ca7ab3d60800000000000000
+      internalID: 7871069131948686949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_30
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 1134
+        width: 99
+        height: 144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b570002b686a5f0800000000000000
+      internalID: -745760589220455526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_31
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 1133
+        width: 99
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d7a515eb1d33d80800000000000000
+      internalID: -8272037475210592872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_32
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 907
+        width: 105
+        height: 171
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35821c7215ddce20800000000000000
+      internalID: 3372585971338085692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_33
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 907
+        width: 73
+        height: 220
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574e5d799089d6110800000000000000
+      internalID: 1255827038075741301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasEllenLargo_34
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 1590
+        width: 80
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a4c54084fbb62f0800000000000000
+      internalID: -978478177991243227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d9a686ca3454aca47b221401c0210edb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
