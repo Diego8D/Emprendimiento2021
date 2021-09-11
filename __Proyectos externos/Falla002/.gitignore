@@ -1,0 +1,9 @@
+obj/
+Library/
+ProjectSettings/ProjectVersion.txt
+Temp/
+Logs/
+
+*.csproj
+.vs/
+*.sln
