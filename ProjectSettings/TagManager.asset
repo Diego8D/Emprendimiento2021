@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - BorderPlatform
+  - ArgomAttack
+  - border_wall
+  - rebote_izquierda
+  - rebote_derecha
   layers:
   - Default
   - TransparentFX

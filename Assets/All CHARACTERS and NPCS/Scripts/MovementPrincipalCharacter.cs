@@ -16,6 +16,8 @@ public class MovementPrincipalCharacter : MonoBehaviour
     private Rigidbody rb;
     private Animator anim;
     private SpriteRenderer RotateAxis;
+    public bool grounded;
+    private bool groundedagregadoinnecesario;
     
     // Start is called before the first frame update
     void Start()
@@ -24,6 +26,7 @@ public class MovementPrincipalCharacter : MonoBehaviour
         anim = GetComponent<Animator>();
         RotateAxis = GetComponent<SpriteRenderer>();
         transform.localScale = new Vector3(CharacterSize, CharacterSize, 1);
+        grounded = true;
     }
 
     // Update is called once per frame 
@@ -33,6 +36,7 @@ public class MovementPrincipalCharacter : MonoBehaviour
         anim.SetFloat("Speed", Mathf.Abs(rb.velocity.x));
         anim.SetFloat("Gravity", rb.velocity.y);
         anim.SetBool("KeyDown", Down);
+        anim.SetBool("grounded", grounded);
         anim.SetBool("ArgomAttackLaser", ArgomAttackLaser);
         float gravity = rb.velocity.y;
         float limitjump = Mathf.Abs(gravity);
@@ -62,12 +66,40 @@ public class MovementPrincipalCharacter : MonoBehaviour
             limitjumpfinish = false;
         }
     }
+
+    void OnTriggerStay(Collider obj)
+    {
+        if (obj.tag == "border_wall")
+        {
+            //AYUDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+            grounded = false;
+            groundedagregadoinnecesario = true;
+            Debug.Log("si funciona le borde");
+        }
+    }
     void FixedUpdate()
     {
-        float speedinjump = Mathf.Abs(rb.velocity.x);   
+        if (groundedagregadoinnecesario = true)
+        {
+            grounded = true;
+            groundedagregadoinnecesario = false;
+        }
+        float speedinjump = Mathf.Abs(rb.velocity.x);
+       
         float h = Input.GetAxis("Horizontal");
-     rb.AddForce(Vector2.right * speed * h);
-     if (Input.GetKey(KeyCode.LeftControl))
+        if (grounded = true)
+        {
+            rb.AddForce(Vector2.right * speed * h);
+            if (h > 0)
+            {
+                RotateAxis.flipX = false;
+            }
+            if (h < 0)
+            {
+                RotateAxis.flipX = true;
+            }
+        }
+        if (Input.GetKey(KeyCode.LeftControl))
      {
          if (speedinjump > (MaxSpeedWalk * 3f))
          {
@@ -82,15 +114,7 @@ public class MovementPrincipalCharacter : MonoBehaviour
          LimitedSpeedRun = LimitedSpeedRun;
          rb.velocity = new Vector2(LimitedSpeedRun, rb.velocity.y); 
      }
-     if (h > 0)
-     {
-         RotateAxis.flipX = false;
-     }
-     if (h < 0)
-     {
-         RotateAxis.flipX = true;
-     }
-     if (jump)
+        if (jump)
      {
          rb.AddForce(Vector2.up * jumpPower, ForceMode.Impulse);
          jump = false;
