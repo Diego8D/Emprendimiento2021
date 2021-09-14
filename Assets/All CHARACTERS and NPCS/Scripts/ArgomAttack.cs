@@ -7,12 +7,15 @@ public class ArgomAttack : MonoBehaviour
     private bool ArgomAttackLaser;
     private Animator anim;
     private SpriteRenderer RotateAxis;
+
+
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
         RotateAxis = GetComponent<SpriteRenderer>();
     }
+
 
     // Update is called once per frame
     void Update()
