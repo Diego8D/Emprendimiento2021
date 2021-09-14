@@ -18,7 +18,11 @@ public class MovementPrincipalCharacter : MonoBehaviour
     private SpriteRenderer RotateAxis;
     public bool grounded;
     private bool groundedagregadoinnecesario;
-    
+    public float smoothing = 1f;
+    public Transform target;
+    public float h;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +31,7 @@ public class MovementPrincipalCharacter : MonoBehaviour
         RotateAxis = GetComponent<SpriteRenderer>();
         transform.localScale = new Vector3(CharacterSize, CharacterSize, 1);
         grounded = true;
+        
     }
 
     // Update is called once per frame 
@@ -73,32 +78,25 @@ public class MovementPrincipalCharacter : MonoBehaviour
         {
             //AYUDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
             grounded = false;
-            groundedagregadoinnecesario = true;
-            Debug.Log("si funciona le borde");
+            
+            Debug.Log("si funciona el borde");
+        }
+    }
+
+    void OntriggerExit(Collider obj)
+    {
+        StartCoroutine(un_s());
+        if (obj.tag == "border_wall")
+        {
+            Debug.Log("solo deberia ser uan  vez");
         }
     }
     void FixedUpdate()
     {
-        if (groundedagregadoinnecesario = true)
-        {
-            grounded = true;
-            groundedagregadoinnecesario = false;
-        }
         float speedinjump = Mathf.Abs(rb.velocity.x);
        
-        float h = Input.GetAxis("Horizontal");
-        if (grounded = true)
-        {
-            rb.AddForce(Vector2.right * speed * h);
-            if (h > 0)
-            {
-                RotateAxis.flipX = false;
-            }
-            if (h < 0)
-            {
-                RotateAxis.flipX = true;
-            }
-        }
+        h = Input.GetAxis("Horizontal");
+        StartCoroutine(limitante_choque_bordes());
         if (Input.GetKey(KeyCode.LeftControl))
      {
          if (speedinjump > (MaxSpeedWalk * 3f))
@@ -119,6 +117,29 @@ public class MovementPrincipalCharacter : MonoBehaviour
          rb.AddForce(Vector2.up * jumpPower, ForceMode.Impulse);
          jump = false;
      }
+    }
+
+    IEnumerator limitante_choque_bordes()
+    {
+        while (grounded = true)
+        {
+            rb.AddForce(Vector2.right * speed * h);
+            if (h > 0)
+            {
+                RotateAxis.flipX = false;
+            }
+
+            if (h < 0)
+            {
+                RotateAxis.flipX = true;
+            }
+
+            yield return null;
+        }
+    }
+    IEnumerator un_s()
+    {
+        yield return new WaitForSeconds(0.2f);
     }
 }
 

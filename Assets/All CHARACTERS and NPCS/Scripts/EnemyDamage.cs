@@ -53,16 +53,18 @@ public class EnemyDamage : MonoBehaviour
     void FixedUpdate()
     {
         if (rebote_izquierda = true)
-        {
+        { 
+            rb.AddForce(Vector2.right * speed);
             float LimitedSpeedRun = Mathf.Clamp(rb.velocity.x, -MaxSpeedWalk, MaxSpeedWalk);
             rb.velocity = new Vector2(LimitedSpeedRun, rb.velocity.y); 
-            Debug.Log("Ando funcionando");
+            //Debug.Log("Ando funcionando");
         }
         if (rebote_derecha = true)
         {
+            rb.AddForce(Vector2.right * -speed);
             float LimitedSpeedRun = Mathf.Clamp(rb.velocity.x, -MaxSpeedWalk, MaxSpeedWalk);
             rb.velocity = new Vector2(-LimitedSpeedRun, rb.velocity.y); 
-            Debug.Log("Prueba falladida");
+            //Debug.Log("Prueba falladida");
         }
     }
     
