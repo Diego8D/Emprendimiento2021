@@ -42,7 +42,7 @@ public class MovementPrincipalCharacter : MonoBehaviour
 
     public void Update()
     {
-        if (!m_canBeUsed) { return; };
+      //  if (!m_canBeUsed) { return; };//
 
         bool wasGrounded = p_grounded;
 
