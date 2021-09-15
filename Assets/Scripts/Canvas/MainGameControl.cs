@@ -52,7 +52,22 @@ public class MainGameControl : MonoBehaviour
 
         m_limitiesPrimeraParte.SetActive(false);
 
+        yield return new WaitForSeconds(1);
+
+
+
+        List<string> debugText = new List<string>() { "Sigue adelante", "estas cerca"};
+        m_mainCanvas.Dialogue.ShowDialogue(debugText, null);
+
+
+
+
+        yield return new WaitForSeconds(1);
+        m_mainCanvas.Dialogue.ShowDialogue(m_parrafoObj.Parrafos, null);
 
 
     }
+
+    [SerializeField] private DialogueLines m_parrafoObj = default;
+
 }

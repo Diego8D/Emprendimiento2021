@@ -9,8 +9,8 @@ public class ObjetoInteractuable : MonoBehaviour
     [Header("ObjetoInteractuable")]
     [SerializeField] private MainCanvasControl m_mainCanvas = default;
     [SerializeField] private MovementPrincipalCharacter m_mainPlayer = default;
+    [SerializeField] private DialogueLines m_parrafoObj = default;
 
-    [SerializeField] [TextArea(3, 30)] private string[] parrafos;
 
     private bool isOnFocus;
 
@@ -41,7 +41,7 @@ public class ObjetoInteractuable : MonoBehaviour
     private void ShowDialogue()
     {
         m_mainPlayer.ModifcyUsedValue(false);
-        m_mainCanvas.Dialogue.ShowDialogue(parrafos.ToList(), OnEndDialogue);
+        m_mainCanvas.Dialogue.ShowDialogue(m_parrafoObj.Parrafos, OnEndDialogue);
     }
 
     private void OnEndDialogue()
