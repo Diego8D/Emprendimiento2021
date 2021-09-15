@@ -35,14 +35,15 @@ public class MovementPrincipalCharacter : MonoBehaviour
     private bool p_isJumping;
     private bool p_grounded;
 
-    private void Start()
+    public void ActivateCharacter()
     {
-        p_canJump = true;
+        m_canBeUsed = true;
+           p_canJump = true;
     }
 
     public void Update()
     {
-      //  if (!m_canBeUsed) { return; };//
+       if (!m_canBeUsed) { return; };
 
         bool wasGrounded = p_grounded;
 

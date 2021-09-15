@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,23 +14,34 @@ public class VentanaPanelDialogo : MonoBehaviour
 
     private Coroutine p_internalRutine;
 
-    public void Start()
+    public void Setup()
+    {
+
+        CloseAll();
+    }
+
+    private void CloseAll()
     {
         gameObject.SetActive(false);
+        ResetALL();
+    }
 
+
+    private void ResetALL()
+    {
         m_area.ResetAll();
         m_button.DesaparecerButon();
     }
 
-    public void ShowDialogue(List<string> dialogueList)
+    public void ShowDialogue(List<string> dialogueList, Action onEndAction)
     {
         gameObject.SetActive(true);
 
         if (p_internalRutine != null) { StopCoroutine(p_internalRutine); };
-        p_internalRutine = StartCoroutine(InternalRutine(dialogueList));
+        p_internalRutine = StartCoroutine(InternalRutine(dialogueList, onEndAction));
     }
 
-    private IEnumerator InternalRutine(List<string> dialogueList)
+    private IEnumerator InternalRutine(List<string> dialogueList, Action onEndAction)
     {
         yield return null;
 
@@ -47,7 +59,12 @@ public class VentanaPanelDialogo : MonoBehaviour
 
             yield return null;
 
-        }
+        };
+
+        onEndAction?.Invoke();
+
+
+        CloseAll();
 
     }
 
