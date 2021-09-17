@@ -12,7 +12,12 @@ public class DIalogosPersonaje : MonoBehaviour
     [ContextMenu("Button")]
     public void ProbarDialogos()
     {
-        m_ventanaDialogos.ShowDialogue(m_dialogosDePrueba);
+        m_ventanaDialogos.ShowDialogue(m_dialogosDePrueba, EndMethod);
+    }
+
+    public void EndMethod()
+    {
+        Debug.Log("Fin");
     }
 
 
