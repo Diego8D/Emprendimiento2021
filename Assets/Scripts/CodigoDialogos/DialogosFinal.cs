@@ -67,7 +67,7 @@ public class DialogosFinal : MonoBehaviour
         if(Collision.gameObject.CompareTag("Player"))
         {
             botonleer.SetActive(true);
-            Debug.Log("NoSirvenLosTriggers");
+            Debug.Log("SiSirvenLosTriggers");
         }
         else
         {
