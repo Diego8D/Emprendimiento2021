@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Grupo dialogos_primera_conversacion
   m_EditorClassIdentifier: 
   parrafos:
-  - Sagra
-  - Es un buen
-  - Swain
+  - Con swain
+  - sagra
+  - es re malo
