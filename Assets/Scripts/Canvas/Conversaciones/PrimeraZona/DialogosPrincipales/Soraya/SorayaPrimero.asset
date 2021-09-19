@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e75bb1078642b5409107ccc0ab791ce, type: 3}
+  m_Name: SorayaPrimero
+  m_EditorClassIdentifier: 
+  parrafos:
+  - "Soraya: \xA1Acomoden los transformadores, debemos iniciar ahora mismo con la
+    fase de\r\npruebas, no tenemos tiempo! - Grita a un grupo de trabajadores\r"
+  - "Memo: \xBFT\xFA eres Soraya, la cient\xEDfica?"
+  - "Soraya: Si ni\xF1o, \xBFt\xFA qui\xE9n eres?\n"
+  - 'Memo: Todos me dicen Memo, mucho gusto'
+  - "Soraya: \xBFQu\xE9 necesitas? Ahorita no tengo tiempo para juegos.\r"
+  - "Memo: Me dijeron que trabajas en un proyecto bastante grande y qu\xE9 dices
+    que sabes\r\ncosas que pueden salvar al planeta, quiero ayudar"
+  - 'Memo: Hablo en serio, quiero ayudar.'
+  - "Soraya: Me voy, tengo muchas cosas por hacer - En esos momentos ocurre una explosi\xF3n\r\ny
+    entra un grupo de hombres con m\xE1scaras de gas.\r"
+  - "Soraya: Toma esto - le entrega un wokie tokie y un collar a Memo - corre en
+    esa direcci\xF3n y\r\nno te detengas, nadie puede tener este collar, supera los
+    retos y espera a que me\r\ncomunique contigo\r."
+  - "Memo: \xBFY t\xFA?\r"
+  - "Soraya: \xBFQuieres ayudar? Haz lo que te digo \xA1R\xE1pido!\r"
+  - 'Soraya: Ve al final de la ciudad, donde el suelo empieza a tocar cielo y habla
+    con Daniel, El te dira instrucciones, no quiero arruinarte la sorpresa pero deberas
+    llegar a mi laboratorio.'
+  - "Memo: Entendido, pero, \xBFcuando te volvere a ver?"
+  - Soraya:Cuando termines el trabajo, te esperare aqui para hablar.
+  - 'Memo: Ok, te vere pronto
+
+'

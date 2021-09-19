@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e75bb1078642b5409107ccc0ab791ce, type: 3}
+  m_Name: MarcoPrimero
+  m_EditorClassIdentifier: 
+  parrafos:
+  - "Memo: \xA1Ey Marco! Nuevamente por aqu\xED \xBFHace cuanto no nos ve\xEDamos?\xBFUn
+    a\xF1o?\xBFTal vez\r\ndos?"
+  - "Marco: Qu\xE9 pasa Memo, si, tuve que regresar de urgencia, los tontos de mis
+    compa\xF1eros\r\ncayeron en la trampa de una v\xEDbora gigante, esos bichos son
+    muy inteligentes y mis\r\nacompa\xF1antes no lo eran tanto"
+  - "Memo: \xBFPor fin vas a dejar de robar?\n"
+  - "Marco: Nah, no puedo salir de esto tan f\xE1cil, tengo deudas con personas muy
+    peligrosas\n"
+  - "Memo: Me dijeron que me buscabas\u2026\n"
+  - "Marco: si, es cierto, casi lo olvido. Escuch\xE9 de una cient\xEDfica, al parecer
+    est\xE1 un poco cucu,\r\ndice que sabe secretos y que podr\xEDa salvar el planeta,
+    otra m\xE1s que dice lo mismo, pero\r\nbueno, cre\xED que te pod\xEDa interesar,
+    siempre te han gustado las historias sobre salvar el\r\nplaneta y eso, podr\xEDa
+    ser divertido escucharla.\r\n"
+  - "Memo: \xBFSabes su nombre?\n"
+  - "Marco: Si, era\u2026. \xBFSoraya? Si, Soraya, as\xED se llama la loca, perd\xF3n
+    la cient\xEDfica. Uuuh, creo\r\nque tenemos compa\xF1\xEDa, debo irme, no me
+    pueden ver hablando contigo, no quiero\r\ninvolucrarte en mis problemas. Marco
+    fuera"

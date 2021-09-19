@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e75bb1078642b5409107ccc0ab791ce, type: 3}
+  m_Name: NaiaPrimero
+  m_EditorClassIdentifier: 
+  parrafos:
+  - "Naia: \xBFTe queda agua?"
+  - "Memo: No, me termin\xE9 la botella, debo llenarla de nuevo"
+  - "Naia: Pues al parecer no ser\xE1 pronto, ya sabes que el agua del grifo es imposible
+    de beber\r\ny los camiones que la reparten no pasan hace d\xEDas.\r\n"
+  - "Memo: es verdad, tendr\xE9 que conseguirla de otro lado \xBFQu\xE9 tal est\xE1
+    tu hermano?"
+  - "Nadia: igual, fiebre y v\xF3mito, no logro conseguir la medicina para su enfermedad\r\nrespiratoria,
+    la comida empieza a escasear en casa y por eso debo hacer un viaje, aunque\r\npreferir\xEDa
+    quedarme cuid\xE1ndolo, no puedo.\r"
+  - "Memo: \xBFDe nuevo de viaje?"
+  - "Naia: si, ya sabes, cosas del trabajo. Un granjero tiene un problema con unos
+    bichos con un\r\nolor bastante desagradable y me llam\xF3 para que le ayudara
+    con eso.\r"
+  - "Memo: Tu trabajo es horrible\u2026 y peligroso."
+  - "Naia: lo es, pero lo necesito, todo lo hago por el mocoso de mi hermano, \xE9l
+    me necesita.\r\nMientras no estoy en casa la vecina lo cuidar\xE1, claro est\xE1
+    que no sin cobrarme tres\r\npaquetes de arroz y dos botellas de agua. Oye, o\xED
+    que Marco te estaba buscando"
+  - "Memo: \xBFMarco? Hace mucho no lo veo, cre\xED que hab\xEDa salido de la ciudad
+    con un grupo de\r\nsaqueadores.\r"
+  - "Naia: Pues al parecer volvi\xF3, y lo hizo solo. Bueno, tengo que irme o voy
+    a llegar tarde a mi\r\nhermoso trabajo"
+  - "Memo: Cu\xEDdate mucho, hablamos luego.\r"

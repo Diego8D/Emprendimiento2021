@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e75bb1078642b5409107ccc0ab791ce, type: 3}
+  m_Name: Incitador
+  m_EditorClassIdentifier: 
+  parrafos:
+  - 'Incitador: Pense que eras mas grande...'
+  - 'Incitador: Pero Sin duda eres tu....'
+  - "Incitador: Estas muy lejos de casa, \xBFeh?"
+  - 'Memo: No es una presentacion tan decente.'
+  - 'Incitador: Disculpame, Mi nombre es Andrew, pero me conocen como el incitador;
+    Mi deber es decirte tu camino, Y quien te encontraras en ese mismo.'
+  - "Memo: Y cuentame, \xBF A donde tengo que ir?."
+  - "Incitador: Tendras que subir al cielo, a las peque\xF1as zonas flotantes."
+  - "Memo: \xBFSera peligroso verdad?, y \xBFcuales seran esos peligros?"
+  - 'Incitador: Si y seran muchos, desde superar a AnimalCorrupted y muchos mas,
+    Pero el mas complicado sera a MrTree, tendras que superar un desafio que te pondra
+    si quieres acabar con toda esta contaminacion.'
+  - "Incitador: Solo puedo decirte \"buena suerte\", y ten cuidado, el camino hac\xEDa
+    el cielo es complicado."
+  - 'Memo: Gracias, espero volver pronto, ya que Soraya me dijo que me devolviera
+    cuando acabe el tema del laboratorio.'

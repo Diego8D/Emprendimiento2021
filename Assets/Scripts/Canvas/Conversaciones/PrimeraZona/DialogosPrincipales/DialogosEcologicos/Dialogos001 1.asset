@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e75bb1078642b5409107ccc0ab791ce, type: 3}
+  m_Name: Dialogos001 1
+  m_EditorClassIdentifier: 
+  parrafos:
+  - "\"La escasez de recursos b\xE1sicos para la supervivencia ha obligado a las
+    personas a\r\ncomercializar productos de primera necesidad, ahora el trueque
+    es algo muy com\xFAn y los\r\nm\xE1s arriesgados ponen en riesgo su vida en el
+    negocio del exterminio de monstruos\"\r"

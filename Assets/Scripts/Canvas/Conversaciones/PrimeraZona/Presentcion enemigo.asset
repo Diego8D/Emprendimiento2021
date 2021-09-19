@@ -13,6 +13,4 @@ MonoBehaviour:
   m_Name: Presentcion enemigo
   m_EditorClassIdentifier: 
   parrafos:
-  - Hola personaje
-  - ahora tienes un reto
-  - jeje
+  - 'Mente de memo: Creo que seguire avanzando un poco mas hasta encontrar a Marco.'
