@@ -10,9 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3e75bb1078642b5409107ccc0ab791ce, type: 3}
-  m_Name: Grupo dialogos_primera_conversacion
+  m_Name: Presentcion enemigo
   m_EditorClassIdentifier: 
   parrafos:
-  - Con swain
-  - sagra
-  - es re malo
+  - 'Mente de memo: Creo que seguire avanzando un poco mas hasta encontrar a Marco.'

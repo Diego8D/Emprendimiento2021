@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3e75bb1078642b5409107ccc0ab791ce, type: 3}
-  m_Name: Presentcion enemigo
+  m_Name: Dialogos001
   m_EditorClassIdentifier: 
   parrafos:
-  - Hola personaje
-  - ahora tienes un reto
-  - jeje
+  - 'Mente de memo: No puedo creer que haya tanta basura en una sola esquina.'
+  - 'Mente de memo: Solo se acumula y acumula en la ciudad y eso que tan solo hace
+    3 dias colapso el sistema.'
+  - 'Mente de memo: No me imagino como estara en un mes.'
