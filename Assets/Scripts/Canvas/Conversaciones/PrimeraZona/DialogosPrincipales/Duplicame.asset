@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Duplicame
   m_EditorClassIdentifier: 
   parrafos:
+<<<<<<< HEAD:Assets/Scripts/Canvas/Conversaciones/PrimeraZona/DialogosPrincipales/Duplicame.asset
   - 
   - 
   - 
+=======
+  - Con swain
+  - sagra
+  - es re malo
+>>>>>>> 7fc58a6f83827d7bb9f9a2911979b796c2bfb55e:Assets/Scripts/Canvas/Grupo dialogos_primera_conversacion.asset
