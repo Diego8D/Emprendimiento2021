@@ -21,17 +21,17 @@ public class MainGameControl : MonoBehaviour
     [SerializeField] private ObjetoInteractuable m_segundaCharla = default;
 
     [Header("Terceros Objetos narrativos")]
-    [SerializeField] private GameObject m_limitiestercera = default;
+    [SerializeField] private GameObject m_limitiesTercera = default;
     [SerializeField] private ObjetoInteractuable m_terceraCharla = default;
     
     
     [Header("Cuartos Objetos narrativos")]
-    [SerializeField] private GameObject m_limitiescuarta = default;
+    [SerializeField] private GameObject m_limitiesCuarta = default;
     [SerializeField] private ObjetoInteractuable m_cuartaCharla = default;
     
     
     [Header("Quintos Objetos narrativos")]
-    [SerializeField] private GameObject m_limitiesquinta = default;
+    [SerializeField] private GameObject m_limitiesQuinta = default;
     [SerializeField] private ObjetoInteractuable m_quintaCharla = default;
     
     
@@ -96,12 +96,12 @@ public class MainGameControl : MonoBehaviour
 //terceraCharla//
         yield return null;
 
-        m_limitiestercera.SetActive(true);
+        m_limitiesTercera.SetActive(true);
 
         yield return new WaitUntil(() => m_terceraCharla.IsDoneTalking);
 
 
-        m_limitiestercera.SetActive(false);
+        m_limitiesTercera.SetActive(false);
 
         yield return new WaitForSeconds(1);
 
@@ -111,12 +111,12 @@ public class MainGameControl : MonoBehaviour
 //cuartaCharla//
         yield return null;
 
-        m_limitiescuarta.SetActive(true);
+        m_limitiesCuarta.SetActive(true);
 
         yield return new WaitUntil(() => m_cuartaCharla.IsDoneTalking);
 
 
-        m_limitiescuarta.SetActive(false);
+        m_limitiesCuarta.SetActive(false);
 
         yield return new WaitForSeconds(1);
 
@@ -126,12 +126,12 @@ public class MainGameControl : MonoBehaviour
 //quintaCharla//
         yield return null;
 
-        m_limitiesquinta.SetActive(true);
+        m_limitiesQuinta.SetActive(true);
 
         yield return new WaitUntil(() => m_quintaCharla.IsDoneTalking);
 
 
-        m_limitiesquinta.SetActive(false);
+        m_limitiesQuinta.SetActive(false);
 
         yield return new WaitForSeconds(1);
 
