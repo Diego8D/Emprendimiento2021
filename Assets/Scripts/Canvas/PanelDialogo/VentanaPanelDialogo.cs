@@ -11,6 +11,7 @@ public class VentanaPanelDialogo : MonoBehaviour
 
     [Header("VentanaPanelDialogo")]
     [SerializeField] private bool m_continueCallback = default;
+    [SerializeField] private float m_delayCOntinue = 1;
 
     private Coroutine p_internalRutine;
 
@@ -52,7 +53,7 @@ public class VentanaPanelDialogo : MonoBehaviour
             m_continueCallback = false;
             m_button.DesaparecerButon();
             m_area.MostarTexto(item);
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(m_delayCOntinue);
             m_button.AparecerButon();
 
             yield return new WaitUntil(() => m_continueCallback );

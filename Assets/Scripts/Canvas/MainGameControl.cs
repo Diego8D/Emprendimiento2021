@@ -4,49 +4,92 @@ using UnityEngine;
 
 public class MainGameControl : MonoBehaviour
 {
+
+    [Header("ObjetoInteractuable")]
+    [SerializeField] private bool m_isDebugTesting = default;
+
+
     [Header("ObjetoInteractuable")]
     [SerializeField] private MainCanvasControl m_mainCanvas = default;
     [SerializeField] private MovementPrincipalCharacter m_mainPlayer = default;
+    [SerializeField] private Transform m_startPos = default;
 
 
 
 
     [Header("Primeros Objetos narrativos")]
     [SerializeField] private GameObject m_limitiesPrimeraParte = default;
-    [SerializeField] private ObjetoInteractuable m_primeraCharla = default;
-    
-    
+    [SerializeField] private ObjetoPersonaje m_primeraCharla = default;
+
+
     [Header("Segundos Objetos narrativos")]
     [SerializeField] private GameObject m_limitiesSegunda = default;
-    [SerializeField] private ObjetoInteractuable m_segundaCharla = default;
+    [SerializeField] private ObjetoPersonaje m_segundaCharla = default;
 
     [Header("Terceros Objetos narrativos")]
     [SerializeField] private GameObject m_limitiesTercera = default;
-    [SerializeField] private ObjetoInteractuable m_terceraCharla = default;
-    
-    
+    [SerializeField] private ObjetoPersonaje m_terceraCharla = default;
+
+
     [Header("Cuartos Objetos narrativos")]
     [SerializeField] private GameObject m_limitiesCuarta = default;
-    [SerializeField] private ObjetoInteractuable m_cuartaCharla = default;
-    
-    
+    [SerializeField] private ObjetoPersonaje m_cuartaCharla = default;
+
+
     [Header("Quintos Objetos narrativos")]
     [SerializeField] private GameObject m_limitiesQuinta = default;
-    [SerializeField] private ObjetoInteractuable m_quintaCharla = default;
-    
-    
+    [SerializeField] private ObjetoPersonaje m_quintaCharla = default;
+
+
     public MainCanvasControl MainCanvas => m_mainCanvas;
     public MovementPrincipalCharacter MainPlayer => m_mainPlayer;
 
     private Coroutine p_internalRutine;
 
+    private void DestroyAllWalls()
+    {
+        m_limitiesPrimeraParte.SetActive(false);
+        m_limitiesSegunda.SetActive(false);
+        m_limitiesTercera.SetActive(false);
+        m_limitiesCuarta.SetActive(false);
+        m_limitiesQuinta.SetActive(false);
+    }
+
+    private void ActiveAllWalls()
+
+    {
+        m_limitiesPrimeraParte.SetActive(true);
+        m_limitiesSegunda.SetActive(true);
+        m_limitiesTercera.SetActive(true);
+        m_limitiesCuarta.SetActive(true);
+        m_limitiesQuinta.SetActive(true);
+    }
+       
+
 
     private IEnumerator Start()
     {
+
         //yield return new WaitForSeconds(1);
         yield return new WaitForFixedUpdate();
 
-        m_mainCanvas.Initial.ShowInitial();
+
+        if (m_isDebugTesting)
+        {
+            StartGameIteration();
+
+            DestroyAllWalls();
+
+        }
+        else
+        {
+            ActiveAllWalls();
+
+            m_mainCanvas.Initial.ShowInitial();
+
+            m_mainPlayer.transform.position = m_startPos.transform.position;
+        };
+
     }
 
 
@@ -54,8 +97,8 @@ public class MainGameControl : MonoBehaviour
     {
         MainPlayer.ActivateCharacter();
 
-        if (p_internalRutine != null) { StopCoroutine(p_internalRutine); };
-        p_internalRutine = StartCoroutine(MainGameRutine());
+        //if (p_internalRutine != null) { StopCoroutine(p_internalRutine); };
+       // p_internalRutine = StartCoroutine(MainGameRutine());
     }
 
 
@@ -67,7 +110,7 @@ public class MainGameControl : MonoBehaviour
 
         m_limitiesPrimeraParte.SetActive(true);
 
-        yield return new WaitUntil(() => m_primeraCharla.IsDoneTalking);
+        yield return new WaitUntil(() => m_primeraCharla.ObjectHaveBeenUsed);
 
 
         m_limitiesPrimeraParte.SetActive(false);
@@ -84,7 +127,7 @@ public class MainGameControl : MonoBehaviour
 
         m_limitiesSegunda.SetActive(true);
 
-        yield return new WaitUntil(() => m_segundaCharla.IsDoneTalking);
+        yield return new WaitUntil(() => m_segundaCharla.ObjectHaveBeenUsed);
 
 
         m_limitiesSegunda.SetActive(false);
@@ -98,7 +141,7 @@ public class MainGameControl : MonoBehaviour
 
         m_limitiesTercera.SetActive(true);
 
-        yield return new WaitUntil(() => m_terceraCharla.IsDoneTalking);
+        yield return new WaitUntil(() => m_terceraCharla.ObjectHaveBeenUsed);
 
 
         m_limitiesTercera.SetActive(false);
@@ -113,7 +156,7 @@ public class MainGameControl : MonoBehaviour
 
         m_limitiesCuarta.SetActive(true);
 
-        yield return new WaitUntil(() => m_cuartaCharla.IsDoneTalking);
+        yield return new WaitUntil(() => m_cuartaCharla.ObjectHaveBeenUsed);
 
 
         m_limitiesCuarta.SetActive(false);
@@ -128,7 +171,7 @@ public class MainGameControl : MonoBehaviour
 
         m_limitiesQuinta.SetActive(true);
 
-        yield return new WaitUntil(() => m_quintaCharla.IsDoneTalking);
+        yield return new WaitUntil(() => m_quintaCharla.ObjectHaveBeenUsed);
 
 
         m_limitiesQuinta.SetActive(false);
