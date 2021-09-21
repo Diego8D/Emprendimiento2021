@@ -10,8 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3e75bb1078642b5409107ccc0ab791ce, type: 3}
-  m_Name: Duplicame 1
+  m_Name: PrimeraMental
   m_EditorClassIdentifier: 
   parrafos:
-  - 'Vendedor: Compra lo mejor en mascarillas contra la polucion'
-  - 'mente de memo: En estos tiempos es muy necesario, y lucrativo.'
+  - 'Mente de memo: Creo que seguire avanzando un poco mas hasta encontrar a Marco.'

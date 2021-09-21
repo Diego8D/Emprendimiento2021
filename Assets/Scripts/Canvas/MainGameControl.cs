@@ -56,7 +56,7 @@ public class MainGameControl : MonoBehaviour
 
 
 
-        List<string> debugText = new List<string>() { "Sigue adelante", "estas cerca"};
+        List<string> debugText = new List<string>() { "...", "..."};
         m_mainCanvas.Dialogue.ShowDialogue(debugText, null);
 
 
