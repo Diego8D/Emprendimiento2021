@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: NaiaPrimero
   m_EditorClassIdentifier: 
   parrafos:
-  - "Naia: \xBFTe queda agua?"
-  - "Memo: No, me termin\xE9 la botella, debo llenarla de nuevo"
-  - "Naia: Pues al parecer no ser\xE1 pronto, ya sabes que el agua del grifo es imposible
-    de beber\r\ny los camiones que la reparten no pasan hace d\xEDas.\r\n"
-  - "Memo: es verdad, tendr\xE9 que conseguirla de otro lado \xBFQu\xE9 tal est\xE1
-    tu hermano?"
+  - 'Naia: Te has tardado...'
+  - 'Memo: Solo un poco, llegar hasta este lugar no es tan facil como antes.'
+  - 'Naia: Lo se...
+
+'
+  - "Memo: Dejando de lado ese tema, \xBFQu\xE9 tal est\xE1 tu hermano?"
   - "Nadia: igual, fiebre y v\xF3mito, no logro conseguir la medicina para su enfermedad\r\nrespiratoria,
     la comida empieza a escasear en casa y por eso debo hacer un viaje, aunque\r\npreferir\xEDa
     quedarme cuid\xE1ndolo, no puedo.\r"

@@ -41,6 +41,7 @@ public class MainGameControl : MonoBehaviour
     [SerializeField] private ObjetoPersonaje m_quintaCharla = default;
 
 
+
     public MainCanvasControl MainCanvas => m_mainCanvas;
     public MovementPrincipalCharacter MainPlayer => m_mainPlayer;
 
