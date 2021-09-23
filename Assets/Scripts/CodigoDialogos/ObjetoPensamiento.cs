@@ -6,6 +6,7 @@ using UnityEngine;
 public class ObjetoPensamiento : ObjetoInteractuableBase
 {
     [Header("ObjetoPensamiento")]
+    [SerializeField] private Transform m_restorePoint = default;
     [SerializeField] private DialogueLines m_parrafoObj = default;
     [SerializeField] private CinemachineVirtualCamera m_thinkCamera = default;
 
@@ -14,6 +15,10 @@ public class ObjetoPensamiento : ObjetoInteractuableBase
     protected override void TriggerInternalEnter()
     {
         if (p_isUsed) { return; };
+
+
+        FedesoftGame.UpdateCheckpoint(m_restorePoint);
+
 
         SetCameraVisualStatus(true);
 

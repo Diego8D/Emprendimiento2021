@@ -21,8 +21,10 @@ public class VentanaPanelDialogo : MonoBehaviour
         CloseAll();
     }
 
-    private void CloseAll()
+    public void CloseAll()
     {
+        if (p_internalRutine != null) { StopCoroutine(p_internalRutine); };
+
         gameObject.SetActive(false);
         ResetALL();
     }

@@ -4,6 +4,31 @@ using UnityEngine;
 
 public class ArgomAttack : MonoBehaviour
 {
+
+    [Header("Components")]
+    [SerializeField] private Animator m_anim = default;
+
+    private string p_attack = "Power";
+
+    public void TriggerAttack()
+    {
+        gameObject.SetActive(true);
+        m_anim.SetTrigger(p_attack);
+
+    }
+
+    public void EndAttack()
+    {
+        gameObject.SetActive(false);
+
+
+    }
+
+    
+
+
+
+    /*
     private bool ArgomAttackLaser;
     private Animator anim;
     private SpriteRenderer RotateAxis;
@@ -39,5 +64,5 @@ public class ArgomAttack : MonoBehaviour
             RotateAxis.flipX = true;
         }
 
-    }
+    }*/
 }

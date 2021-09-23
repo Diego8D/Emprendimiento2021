@@ -21,7 +21,7 @@ public class InitialPanel : MonoBehaviour
 
     }
 
-    private void CloseAll()
+    public void CloseAll()
     {
         gameObject.SetActive(false);
     }

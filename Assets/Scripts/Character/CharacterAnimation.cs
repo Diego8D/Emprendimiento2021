@@ -12,10 +12,13 @@ public class CharacterAnimation : MonoBehaviour
     private string p_JumpStart = "JumpStart";
     private string p_OnAir = "OnAir";
     private string p_Speed = "Speed";
+    private string p_attack = "Attack";
 
 
-    public void TriggerJum()
+    public void TriggerAttack()
     {
+        m_anim.SetTrigger(p_attack);
+
     }
 
 

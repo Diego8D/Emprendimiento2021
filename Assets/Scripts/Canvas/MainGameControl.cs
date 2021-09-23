@@ -98,8 +98,10 @@ public class MainGameControl : MonoBehaviour
     {
         MainPlayer.ActivateCharacter();
 
-        //if (p_internalRutine != null) { StopCoroutine(p_internalRutine); };
-       // p_internalRutine = StartCoroutine(MainGameRutine());
+        MainCanvas.Constante.Abrir();
+
+        if (p_internalRutine != null) { StopCoroutine(p_internalRutine); };
+        p_internalRutine = StartCoroutine(MainGameRutine());
     }
 
 
