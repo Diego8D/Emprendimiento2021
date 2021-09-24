@@ -3,6 +3,7 @@ Library/
 ProjectSettings/ProjectVersion.txt
 Temp/
 Logs/
+UserSettings/
 
 *.csproj
 .vs/
