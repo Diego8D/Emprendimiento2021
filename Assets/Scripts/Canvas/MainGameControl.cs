@@ -40,7 +40,15 @@ public class MainGameControl : MonoBehaviour
     [SerializeField] private GameObject m_limitiesQuinta = default;
     [SerializeField] private ObjetoPersonaje m_quintaCharla = default;
 
-
+    
+    [Header("Quintos Objetos narrativos")]
+    [SerializeField] private GameObject m_limitiesvendedor = default;
+    [SerializeField] private ObjetoPersonaje m_vendedorCharla = default;
+    
+    [Header("Sexto Objetos narrativos")]
+    [SerializeField] private GameObject m_BasuraSexta = default;
+    [SerializeField] private GameObject m_PlantasSexta = default;
+    [SerializeField] private ObjetoPersonaje m_SextaCharla = default;
 
     public MainCanvasControl MainCanvas => m_mainCanvas;
     public MovementPrincipalCharacter MainPlayer => m_mainPlayer;
@@ -54,6 +62,7 @@ public class MainGameControl : MonoBehaviour
         m_limitiesTercera.SetActive(false);
         m_limitiesCuarta.SetActive(false);
         m_limitiesQuinta.SetActive(false);
+        
     }
 
     private void ActiveAllWalls()
@@ -64,6 +73,7 @@ public class MainGameControl : MonoBehaviour
         m_limitiesTercera.SetActive(true);
         m_limitiesCuarta.SetActive(true);
         m_limitiesQuinta.SetActive(true);
+        
     }
        
 
@@ -183,6 +193,34 @@ public class MainGameControl : MonoBehaviour
 
 //Acabaquintaharla//
 
+//VendedorCharla//
+        yield return null;
+
+        m_limitiesvendedor.SetActive(true);
+
+        yield return new WaitUntil(() => m_vendedorCharla.ObjectHaveBeenUsed);
+
+
+        m_limitiesvendedor.SetActive(false);
+
+        yield return new WaitForSeconds(1);
+
+//AcabaVendedorCaharla//
+
+//SextaCharla//
+        yield return null;
+
+        m_BasuraSexta.SetActive(true);
+        m_PlantasSexta.SetActive(false);
+
+        yield return new WaitUntil(() => m_SextaCharla.ObjectHaveBeenUsed);
+
+
+        m_BasuraSexta.SetActive(false);
+        m_PlantasSexta.SetActive(true);
+        yield return new WaitForSeconds(1);
+
+//AcabaSextaCharla//
 
         List<string> debugText = new List<string>() { "...", "..."};
         m_mainCanvas.Dialogue.ShowDialogue(debugText, null);
