@@ -121,12 +121,6 @@ public class MovementPrincipalCharacter : MonoBehaviour
                 m_rigidbody.velocity = currentVel;
 
             };
-
-
-
-
-
-
         }
         else if (Input.GetKey(KeyCode.X) && p_canAttack && p_grounded)
         {
