@@ -35,15 +35,16 @@ public class MainGameControl : MonoBehaviour
     [SerializeField] private GameObject m_limitiesCuarta = default;
     [SerializeField] private ObjetoPersonaje m_cuartaCharla = default;
 
-
+    [Header("Vendedor Objetos narrativos")]
+    [SerializeField] private GameObject m_limitiesvendedor = default;
+    [SerializeField] private ObjetoPersonaje m_vendedorCharla = default;
+    
     [Header("Quintos Objetos narrativos")]
     [SerializeField] private GameObject m_limitiesQuinta = default;
     [SerializeField] private ObjetoPersonaje m_quintaCharla = default;
 
     
-    [Header("Quintos Objetos narrativos")]
-    [SerializeField] private GameObject m_limitiesvendedor = default;
-    [SerializeField] private ObjetoPersonaje m_vendedorCharla = default;
+    
     
     [Header("Sexto Objetos narrativos")]
     [SerializeField] private GameObject m_BasuraSexta = default;
