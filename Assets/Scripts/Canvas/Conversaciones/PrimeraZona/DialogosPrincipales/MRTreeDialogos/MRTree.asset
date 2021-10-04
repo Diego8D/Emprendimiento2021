@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: MRTree
   m_EditorClassIdentifier: 
   parrafos:
-  - 'MR Tree: '
-  - 'Memo: '
-  - 
-  - 
-  - 
-  - 
+  - "MR Tree: Parece que has liberado muchos peque\xF1ines..."
+  - 'Memo: Eso creo...'
+  - 'MR Tree: Llegar hasta este lugar es de por si un logro.'
+  - 'Memo: Gracias...'
+  - 'MR Tree: Bueno sere generoso, limpiare todo este basurero por tus servicios
+    con mis muchachos...'
+  - No te quedes mirandome, es mejor que te larges o cambiare de opinion...

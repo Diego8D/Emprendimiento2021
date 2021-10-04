@@ -34,10 +34,7 @@ public class MainGameControl : MonoBehaviour
     [Header("Cuartos Objetos narrativos")]
     [SerializeField] private GameObject m_limitiesCuarta = default;
     [SerializeField] private ObjetoPersonaje m_cuartaCharla = default;
-
-    [Header("Vendedor Objetos narrativos")]
-    [SerializeField] private GameObject m_limitiesvendedor = default;
-    [SerializeField] private ObjetoPersonaje m_vendedorCharla = default;
+    
     
     [Header("Quintos Objetos narrativos")]
     [SerializeField] private GameObject m_limitiesQuinta = default;
@@ -47,6 +44,46 @@ public class MainGameControl : MonoBehaviour
     
     
     [Header("Sexto Objetos narrativos")]
+    //Pisos//
+    [SerializeField] private GameObject m_PisoInicial = default;
+    [SerializeField] private GameObject m_PisoFinal = default;
+    //Pisos//
+    
+    //CharlaNaia//
+    [SerializeField] private GameObject m_NaiaInicial = default;
+    [SerializeField] private GameObject m_NaiaFinal = default;
+    //CharlaNaia//
+        
+    //CharlaChef//
+    [SerializeField] private GameObject m_ChefInicial = default;
+    [SerializeField] private GameObject m_ChefFinal = default;
+    //CharlaChef//
+        
+    //CharlaMarco//
+    [SerializeField] private GameObject m_MarcoInicial = default;
+    [SerializeField] private GameObject m_MarcoFinal = default;
+    //CharlaMarco//
+        
+    //CharlaSoraya//
+    [SerializeField] private GameObject m_SorayaInicial = default;
+    [SerializeField] private GameObject m_SorayaFinal = default;
+    //CharlaSoraya//
+        
+        
+   
+        
+    //CharlaIncitador//
+    [SerializeField] private GameObject m_IncitadorInicial = default;
+    [SerializeField] private GameObject m_IncitadorFinal = default;
+    //CharlaIncitador//
+    
+    
+    
+    //BasuraDialogos//
+    [SerializeField] private GameObject m_BasuraInicial = default;
+    [SerializeField] private GameObject m_PlantasFinal = default;
+    //BasuraDialogos//
+    
     [SerializeField] private GameObject m_BasuraSexta = default;
     [SerializeField] private GameObject m_PlantasSexta = default;
     [SerializeField] private ObjetoPersonaje m_SextaCharla = default;
@@ -194,29 +231,97 @@ public class MainGameControl : MonoBehaviour
 
 //Acabaquintaharla//
 
-//VendedorCharla//
-        yield return null;
-
-        m_limitiesvendedor.SetActive(true);
-
-        yield return new WaitUntil(() => m_vendedorCharla.ObjectHaveBeenUsed);
-
-
-        m_limitiesvendedor.SetActive(false);
-
-        yield return new WaitForSeconds(1);
-
-//AcabaVendedorCaharla//
 
 //SextaCharla//
         yield return null;
+        
+        //Piso//
+        m_PisoInicial.SetActive(true);
+        m_PisoFinal.SetActive(false);
+        //Piso//
+        
+        
+        //CharlaNaia//
+        m_NaiaInicial.SetActive(true);
+        m_NaiaFinal.SetActive(false);
+        //CharlaNaia//
+        
+        //CharlaChef//
+        m_ChefInicial.SetActive(true);
+        m_ChefFinal.SetActive(false);
+        //CharlaChef//
+        
+        //CharlaMarco//
+        m_MarcoInicial.SetActive(true);
+        m_MarcoFinal.SetActive(false);
+        //CharlaMarco//
+        
+        //CharlaSoraya//
+        m_SorayaInicial.SetActive(true);
+        m_SorayaFinal.SetActive(false);
+        //CharlaSoraya//
+        
+        
+        
+        //CharlaIncitador//
+        m_IncitadorInicial.SetActive(true);
+        m_IncitadorFinal.SetActive(false);
+        //CharlaIncitador//
+        
 
+       
+        
+        //BasuraDialogos//
+        m_BasuraInicial.SetActive(true);
+        m_PlantasFinal.SetActive(false);
+        //BasuraDialogos//
+        
         m_BasuraSexta.SetActive(true);
         m_PlantasSexta.SetActive(false);
 
         yield return new WaitUntil(() => m_SextaCharla.ObjectHaveBeenUsed);
-
-
+        //Piso//
+        m_PisoInicial.SetActive(false);
+        m_PisoFinal.SetActive(true);
+        //Piso//
+        
+        //CharlaNaia//
+        m_NaiaInicial.SetActive(false);
+        m_NaiaFinal.SetActive(true);
+        //CharlaNaia//
+        
+        //CharlaChef//
+        m_ChefInicial.SetActive(false);
+        m_ChefFinal.SetActive(true);
+        //CharlaChef//
+        
+        //CharlaMarco//
+        m_MarcoInicial.SetActive(false);
+        m_MarcoFinal.SetActive(true);
+        //CharlaMarco//
+        
+        //CharlaSoraya//
+        m_SorayaInicial.SetActive(false);
+        m_SorayaFinal.SetActive(true);
+        //CharlaSoraya//
+        
+        
+     
+        
+        //CharlaIncitador//
+        m_IncitadorInicial.SetActive(false);
+        m_IncitadorFinal.SetActive(true);
+        //CharlaIncitador//
+        
+        
+       
+        
+        //BasuraDialogos//
+        m_BasuraInicial.SetActive(false);
+        m_PlantasFinal.SetActive(true);
+        //BasuraDialogos//
+        
+        
         m_BasuraSexta.SetActive(false);
         m_PlantasSexta.SetActive(true);
         yield return new WaitForSeconds(1);
